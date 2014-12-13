@@ -17,8 +17,100 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+ <!-- Bootstrap -->
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<style>
+#header{
+  background-color:#AC1919;
+  color: white;
+ }
+
+.navbar-nav >li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+#inthenews{
+  border: 1px solid;
+  width: 30%;
+  margin: 1.5%;
+  
+}
+
+#compinfo{
+  border: 1px solid;
+  width: 30%;
+  margin: 1.5%;
+}
+
+#calendar{
+  border: 1px solid;
+  width: 30%;
+  margin: 1.5%;
+  
+}
+
+#media{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer{
+  background-color: #26262C;
+  color: white;
+  text-align: center;
+}
+
+td{
+  padding: 15px;
+}
+
+#submit{
+  color:black;
+  }
+
+</style>
   <body>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="header" class="row">
+  <div id="brandheader" class="col-md-8"><h1>Fairfield University</h1><h4>Business Plan Competition</h4></div>
+  <div class="col-md-4"> <a href="http://is-dsb.fairfield.edu/fbpc2014/registration-step1">Register</a>
+  <a href="http://is-dsb.fairfield.edu/fbpc2014/user/login?current=featured-items">Login</a></div>
+</div>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+ <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="gettingstarted.html">Sign up</a></li>
+        <li><a href="#">Read the Guide</a></li>
+        <li><a href="#">Take a Class</a></li>
+        <li><a href="#">Attend an Event</a></li>
+        <li><a href="#">Get Involved</a></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -80,5 +172,96 @@
 })
     });
 </script>
+        
+<div id="content" class="row">
+  <div id="inthenews" class="col-md-4">
+    <h4>In the News</h4>
+      <ul>
+        <li><a href="http://fairfieldmirror.com/2014/11/19/business-plan-competition-hosts-elevator-pitch-contest/">Fairfield Mirror</a> - Elevator Pitch Contest(11/20/14)</li>
+        <li><a href="http://westfaironline.com/62249/dolan-competition-rewards-young-enterprises/">Fairfield County Business Journal</a> (4/17/14) Dolan competition rewards young enterprises</li>
+        <li>CT News.com <a href="http://blog.ctnews.com/education/2014/04/11/student-business-plan-finals-at-fairfield-u/">Education Matters Promotes 2014 Competition Day</a> (4/11/14)</li>
+        <li>Fairfield University Press <a href="http://www.fairfield.edu/lassochannel/press/pr_index/index.lasso?id=3919">Fairfield University's Startup Day had a fever pitch</a> </li>
+        <li>Business Council of Fairfield County <a href="http://www.businessfairfield.com/portfolio/state-and-local-resources-help-small-business/">State and Local Resources Help Entrepreneurs Grow Their Small Business Toolkits</a> (7/31/14)</li>
+        </ul>
+      </div>
+  <div id="compinfo" class="col-md-4">
+  <h4>The Fourth Annual Business Plan Competition</h4>
+    <p>This year's funding pool is <strong><i>over</i></strong> $20,000 in cash and prizes:</p>
+    <ul>
+      <li>$2,500 for November's Elevator Pitch Contest</li>
+      <li>$20,000 for the Finale on March 31st</li>
+    </ul>
+    <p>For more information about judging criteria, eligibility rules, and other considerations, please consult the official <a href= "http://is-dsb.fairfield.edu/fbpc2014/competitors-guide">Competitors Guide.</a></p>
+    <p>For more information about the staff and judges, please consult the <a href="http://is-dsb.fairfield.edu/fbpc2014/directory-public">Directory</a></p>
+    <p>For any remaining questions, please consult the <a href="http://is-dsb.fairfield.edu/fbpc2014/faqs">FAQs</a> or <a href="http://is-dsb.fairfield.edu/fbpc2014/contact">Contact Us</a> directly for more information.</p>
+  </div>
+  <div id="calendar" class="col-md-4">
+    <h4>Calendar</h4>
+      <ul>
+        <li><strong>Sept 23:</strong> Annual Kickoff</li>
+        <li><strong>Oct 19:</strong> Startup Day</li>
+        <li><strong>Nov 14:</strong> <a href="http://www.up.co/communities/usa/connecticut/startup-weekend/4351"> New Haven Startup Weekend</a></li>
+        <li><strong>Nov 15:</strong> Elevator Pitch Contest</li>
+        <li><strong>Nov 25:</strong> <a href="http://entrepreneurshipfoundation.org/contest.html" > Connecticut New Venture Competition Submission Deadline</a></li>
+        <li><strong>Jan 27:</strong> Spring Welcome and Kickoff</li>
+        <li><strong>Feb 2: <i>Team Formation Deadline</i></strong></li>
+        <li><strong>Feb 3,5, and 9:</strong> Open Office Hours with Expert Advisors - Appts. Mandatory - 5pm-7:30</li>
+        <li><strong>Feb 19 and 24:</strong> Practice Pitch Session</li>
+        <li><strong>Feb 28:</strong> Semifinal Round</li>
+        <li><strong>Mar 31: Final Round and Gala</strong></li>
+        </ul>          
+    </div>
+</div>
+
+<div id="media">
+    <h3>Business Plan Competition 2013</h3>
+    <a href="https://www.youtube.com/watch?v=sZvr5wcc_Ng">
+        <img class="attr_format_media_original img_fid_201 img_view_mode_media_original media-image" src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/BPC_Video_Thumbnail_0.jpg" alt="">
+      </a>
+      <p>Thanks to the Fairfield University Media Production Group!</p>
+      
+  </div>
+
+
+<div id="footer" class="row">
+  <div class="col-md-4"><h3>Thank You to Our Sponsers</h3>
+    <table id="sponsers" style="width:80%">
+  <tr>
+    <td><a href="http://criticalmix.com/"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/CriticalMixLogo.png" width="180" height="54"></a></td>
+    <td><a href="http://indie-soft.com"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/indie_and_thegrid.png" width="180" height="54"></a></td> 
+  </tr>
+  <tr>
+    <td><a href="http://www.blumshapiro.com/"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/blumshapiro_footer.png" width="182" height="54"></a></td>
+    <td><a href="http://fairfieldame.org"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/default/files/media/FAME_Logo_Short.png" width="180" height="54"></a></td> 
+  </tr>
+</table> 
+  
+  </div>
+  <div id="footerlogo" class="col-md-4">
+  <h2>Fairfield University</h2>
+  <p>1073 North Benson Road<br>Fairfield, Connecticut 06824<br>(203) 254-4000</p>
+  </div>
+  <div class="col-md-4">
+  <h3>Follow us on</h3>
+    <div id="social media">
+  <a href="http://www.linkedin.com/groups?gid=2130149" rel="nofollow" title="linkedin" class="social-icon"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/all/modules/custom/icons/linkedin.png" alt="" width="24" height="24"></a>
+  <a href="https://www.facebook.com/FairfieldDSB" rel="nofollow" title="facebook" class="social-icon"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/all/modules/custom/icons/facebook.png" alt="" width="24" height="24"></a>
+  <a href="https://twitter.com/FairfieldDSB" rel="nofollow" title="twitter" class="social-icon"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/all/modules/custom/icons/twitter.png" alt="" width="24" height="24"></a>
+  <a href="/fbpc2014/rss.xml" rel="nofollow" title="feed" class="social-icon"><img src="http://is-dsb.fairfield.edu/fbpc2014/sites/all/modules/custom/icons/feed.png" alt="" width="24" height="24"></a>
+    </div>
+  <h3>Fairfield BPC Updates</h3>
+  <p>Stay informed on our latest news!</p>
+ <form action="action_page.php">
+  E-mail:
+  <input type="email" name="email">
+  <input type="submit" name="submit" value="Submit" id="submit">
+</form>
+</div>
+</div>
+  
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JavaScript/jquery.js" />
+    <script src="JavaScript/bootstrap-min.js"/>
+>>>>>>> e5315389896227aabff9fd70597b304f62717774
   </body>
 </html>

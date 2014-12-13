@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img{display:block;max-width:100%;height:auto}
 .carousel{position:relative}
 .carousel-inner{position:relative;width:100%;overflow:hidden}
@@ -32,3 +33,8 @@
 .carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-15px}
 .carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-15px}
 .carousel-caption{right:20%;left:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}}
+=======
+h1 {
+  color: red;
+}
+>>>>>>> e5315389896227aabff9fd70597b304f62717774
