@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Understanding Bootstrap 3 Carousel</title>
-
+    <title>Fairfield University Buisiness Plan Competition</title>
+        
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
@@ -26,11 +26,45 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
 <style>
+#wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
 #header{
   background-color:#AC1919;
   color: white;
- }
+  }
 
+#brandheader{
+  left: 30px;
+}
+
+#header a:link{
+  color:white;
+}
+
+#header a:link{
+  color:white;
+  text-decoration: none;
+}
+
+#header a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header a:active {
+    text-decoration: underline;
+}
+
+#logins {
+  left: 300px;
+}
 .navbar-nav >li{
   padding-left:30px;
   padding-right:30px;
@@ -38,26 +72,31 @@
 
 #inthenews{
   border: 1px solid;
-  width: 30%;
-  margin: 1.5%;
+  max-width: 380px;
+  margin: 8px;
+  float:left;
+  background-color: #FFF2E5;
   
 }
 
 #compinfo{
   border: 1px solid;
-  width: 30%;
-  margin: 1.5%;
+  max-width: 400px;
+  margin: 8px;
+  float: left;
+  background-color: #FFF2E5;
 }
 
 #calendar{
   border: 1px solid;
-  width: 30%;
-  margin: 1.5%;
-  
+  max-width: 380px;
+  margin: 8px;
+  float: left;
+  background-color: #FFF2E5;
 }
 
 #media{
-  width: 800px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -76,12 +115,30 @@ td{
 #submit{
   color:black;
   }
+#content a:link{
+  color:#DB4D4D;
+  text-decoration: none;
+}
+
+#content a:visited {
+    color:#DB4D4D;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+#content a:active {
+    text-decoration: underline;
+}
 
 </style>
   <body>
+<div id="wrapper">
 <div id="header" class="row">
   <div id="brandheader" class="col-md-8"><h1>Fairfield University</h1><h4>Business Plan Competition</h4></div>
-  <div class="col-md-4"> <a href="http://is-dsb.fairfield.edu/fbpc2014/registration-step1">Register</a>
+  <div id="logins" class="col-md-4"> <a href="http://is-dsb.fairfield.edu/fbpc2014/registration-step1">Register</a>
   <a href="http://is-dsb.fairfield.edu/fbpc2014/user/login?current=featured-items">Login</a></div>
 </div>
 
@@ -100,8 +157,8 @@ td{
  <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav">
         <li><a href="gettingstarted.html">Sign up</a></li>
-        <li><a href="#">Read the Guide</a></li>
-        <li><a href="#">Take a Class</a></li>
+        <li><a href="readtheguide.html">Read the Guide</a></li>
+        <li><a href="relevantcourses.html">Take a Class</a></li>
         <li><a href="#">Attend an Event</a></li>
         <li><a href="#">Get Involved</a></li>
         <li><a href="#">Contact Us</a></li>
@@ -172,7 +229,8 @@ td{
 })
     });
 </script>
-        
+
+
 <div id="content" class="row">
   <div id="inthenews" class="col-md-4">
     <h4>In the News</h4>
@@ -212,6 +270,7 @@ td{
         </ul>          
     </div>
 </div>
+
 
 <div id="media">
     <h3>Business Plan Competition 2013</h3>
@@ -262,6 +321,6 @@ td{
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="JavaScript/jquery.js" />
     <script src="JavaScript/bootstrap-min.js"/>
->>>>>>> e5315389896227aabff9fd70597b304f62717774
+</div>
   </body>
 </html>
